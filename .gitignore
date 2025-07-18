@@ -1,0 +1,12 @@
+venv/
+.env
+build/
+dist/
+storage/
+assets/
+__pycache__/
+*.json
+clash.py
+teste.py
+solo.py
+*.spec
