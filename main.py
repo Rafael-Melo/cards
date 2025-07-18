@@ -310,10 +310,8 @@ def main(page: ft.Page):
 
     page.add(layout)
     
-    def on_load(e):
-        page.run_task(rotate_border)
+    page.run_task(rotate_border)
 
-    page.on_load = on_load
 
 
 
