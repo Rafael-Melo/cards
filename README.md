@@ -1,72 +1,72 @@
 # 🧙‍♂️ Character Cards UI with Flet
 
-Uma interface animada e estilizada feita com [Flet](https://flet.dev), onde você pode exibir cards de personagens com raridades diferentes, bordas animadas, gradientes personalizados e barras de progresso para habilidades ataque, defesa, velocidade e mais.
+An animated, styled interface built with Flet, where you can display character cards with different rarities, animated borders, custom gradients, and progress bars for attributes like attack, defense, speed, and more.
 
 ![Preview](./screenshot.png)
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- 🟫 Cards com bordas coloridas e gradientes conforme a **raridade**:
-  - **Comum** – cinza
-  - **Incomum** – vermelho
-  - **Raro** – azul
-  - **Épico** – roxo
-  - **Lendário** – dourado com borda animada ✨
-- ✨ **Gradientes personalizados** para cada raridade
-- 🎯 Animações suaves com `AnimatedSwitcher` e `Rotation`
-- 📊 Visualização de **atributos** com `ProgressBar`
-- 📱 Interface responsiva, centralizada, ideal para dashboards, apps de RPG ou coleções
+- 🟫 Rarity-based card design with color-coded and gradient borders:
+  - **Common** – gray
+  - **Uncommon** – red
+  - **Rare** – blue
+  - **Epic** – purple
+  - **Legendary** – gold with animated border ✨
+- ✨ **Custom gradients for each rarity**
+- 🎯 Smooth animations using `AnimatedSwitcher` e `Rotation`
+- 📊 Visual **attribute** bars with `ProgressBar`
+- 📱 Fully responsive UI, centered layout — ideal for dashboards, RPG apps, or collectible interfaces
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## 🛠 Tech Stack
 
-- [Flet](https://flet.dev) – UI declarativa com Python
+- [Flet](https://flet.dev) – Flutter-like UI with Python
 - Python 3.10+
 - Estilização com gradientes e animações
-- Estrutura baseada em `Container`, `Column`, `Stack` e `AnimatedSwitcher`
+- Custom UI using `Container`, `Column`, `Stack` and `AnimatedSwitcher`
 
 ---
 
-## 📷 Prévia
+## 📷 Preview
 
 ![Gif ou imagem da interface](./preview.gif)
 
 ---
 
-## 🧩 Como rodar o projeto
+## 🧩 How to Run
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 + git clone https://github.com/Rafael-Melo/cards.git
 + cd cards
 ```
-2. Crie um ambiente virtual e ative:
+2. Create and activate a virtual environment:
 `python -m venv venv`
 `venv\Scripts\activate`
 
-3. Instale as dependências:
+3. Install dependencies:
 `pip install flet`
 
-4. Execute o projeto:
+4. Run the project:
 `flet run main.py`
 
-📁 Estrutura do Projeto
+📁 Project Structure
 📦 cards/
  ┣ 📜 main.py
  ┣ 📁 assets/
- ┃ ┗ 🖼️ imagens de personagens
+ ┃ ┗ 🖼️ character images
  ┗ 📄 README.md
 
-✨ Inspiração
-Este projeto foi inspirado em webtoons como Solo Leveling e card games como Clash Royale e interfaces de coleções, com foco em UI fluida e personalizável.
+✨ Inspiration
+This project was inspired by webtoons like Solo Leveling and card games like Clash Royale, with a focus on smooth UI and customizable visuals for collectible or RPG-style apps.
 
-📄 Licença  
-Distribuído sob a licença [MIT](LICENSE).
+📄 License 
+Distributed under the [MIT](LICENSE).
 
-🤝 Contribuições
-Contribuições são bem-vindas! Sinta-se livre para abrir issues, enviar pull requests ou dar sugestões.
+🤝 Contributions
+Contributions are welcome! Feel free to open issues, submit pull requests, or suggest improvements.
 
-Desenvolvido com 💻 e paixão por Rafael Melo (@rafael-melo)
+Developed with 💻 and passion by Rafael Melo @rafael-melo
